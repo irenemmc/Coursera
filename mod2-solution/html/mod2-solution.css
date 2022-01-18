@@ -1,0 +1,68 @@
+<style>
+/********** Base styles **********/
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+/* Simple Responsive Framework. */
+.row{
+  width: 100%;
+}
+/********** Large devices only **********/
+@media (min-width: 992px){
+  .col-1 {
+    width: 33%;
+    float: left;
+  }
+}
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px){
+  .col-1 {
+    width: 50%;
+    float: left;
+  }
+  .col-2{
+   width: 100%;
+   float: left;
+ }
+}
+.title{
+  text-align: center;
+  margin-bottom: 50px;
+}
+p{
+  margin-top: 20px;
+  font-size:100%;
+}
+.container{
+ position: relative;
+ top:70px;
+ margin: 40px; 
+}
+.item{
+  position: relative;
+  top: 0;
+  background-color:gray;
+  margin: 20px;
+  border: 4px solid black;
+  padding: 30px;
+}
+.item-title{
+  position: absolute;
+  top:0;
+  right: 0px;
+  border-left: 3px solid black;
+  border-bottom: 3px solid black;
+  padding: 4px 20px;
+}
+#menu1 {
+  background-color: #FFFF00;
+} 
+#menu2 {
+  background-color: #DE8887;
+}
+#menu3 {
+  background-color: #00FFFF;
+}
+</style>
